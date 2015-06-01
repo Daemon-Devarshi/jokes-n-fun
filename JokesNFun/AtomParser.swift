@@ -12,7 +12,7 @@ import UIKit
 typealias StartTagRuleBlock = (NSMutableDictionary, [NSObject : AnyObject]) -> Void
 typealias EndTagRuleBlock = (NSMutableDictionary, String) -> Void
 
-// MARK: - Protocol implemented
+// MARK: - Protocol declared
 protocol CompletionObserver {
     func dataSourcePopulated(dataSourceArray : NSArray) -> ()
 }
