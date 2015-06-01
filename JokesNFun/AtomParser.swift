@@ -8,7 +8,7 @@
 
 import UIKit
 
-// MARK: - declaring typealias to store closures with dictionary
+// MARK: - declaring typealias to store closures within dictionary
 typealias StartTagRuleBlock = (NSMutableDictionary, [NSObject : AnyObject]) -> Void
 typealias EndTagRuleBlock = (NSMutableDictionary, String) -> Void
 
